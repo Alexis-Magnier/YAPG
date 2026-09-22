@@ -1,8 +1,0 @@
-[package]
-name = "weather-sim-core"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-syn = "3.0.3"
-quote = "1"

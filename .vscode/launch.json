@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Project (Godot 4)",
+            "type": "lldb",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/godot",
+            "preLaunchTask": "build-rust",
+            "args": [
+                "-w"
+            ],
+            "program": "/usr/bin/godot",
+            "sourceLanguages": ["rust"],
+            "postRunCommands": [
+                "breakpoint set -n rust_begin_unwind"
+            ]
+        }
+    ]
+}
