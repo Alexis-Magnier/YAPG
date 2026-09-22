@@ -1,0 +1,24 @@
+[package]
+name = "planet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+terrain-gen-stages = { workspace = true }
+terrain-gen-core = { workspace = true }
+godot = { workspace = true }
+anyhow = { workspace = true }
+glam = { workspace = true }
+noise = { workspace = true }
+rand = { workspace = true }
+inventory = { workspace = true }
+
+ash = "0.38.0"
+rand_core = "0.10.1"
+rand_distr = "0.6.0"
+rayon = "1.12.0"
+proc-macro2 = "1.0.107"
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,23 @@
+
+[workspace]
+members = [
+    "godot",
+    "terrain-gen/*",
+    "weather-sim/*",
+]
+resolver = "2"
+
+[workspace.dependencies]
+
+terrain-gen-macros = { path = "terrain-gen/macros" }
+terrain-gen-core = { path = "terrain-gen/core" }
+terrain-gen-stages = { path = "terrain-gen/stages" }
+
+anyhow = "1.0.104"
+godot = "0.5.5"
+glam = "0.33.5"
+noise = "0.9.0"
+rand = "0.10.2"
+bitflags = "2.13.1"
+inventory = "0.3.24"
+enumflags2 = "0.7.12"
