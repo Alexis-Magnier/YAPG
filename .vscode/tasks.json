@@ -9,7 +9,7 @@
                 "build"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/planet"
+                "cwd": "${workspaceFolder}/YAPG"
             }
         }
     ]
